@@ -193,6 +193,9 @@ const QuantityContainer = styled.div`
 const RemoveButton = styled.button`
     background-color: #e74c3c;
     color: white;
+    display: flex;
+    align-items: center;
+    padding: 2px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -205,6 +208,9 @@ const RemoveButton = styled.button`
 const AddButton = styled.button`
     background-color: #27ae60;
     color: white;
+    display: flex;
+    align-items: center;
+    padding: 2px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
